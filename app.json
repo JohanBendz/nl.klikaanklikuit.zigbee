@@ -1,0 +1,344 @@
+{
+  "id": "nl.klikaanklikuit.zigbee",
+  "name": {
+    "en": "KlikAanKlikUit ZigBee"
+  },
+  "description": {
+    "en": "KlikAanKlikUit ZigBee",
+    "nl": "KlikAanKlikUit ZigBee"
+  },
+  "category": [
+    "lights"
+  ],
+  "version": "1.0.0",
+  "compatibility": ">=1.5.0",
+  "sdk": 2,
+  "author": {
+    "name": "Athom B.V.",
+    "email": "info@athom.com"
+  },
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "drivers": [
+    {
+      "id": "smart_dimmable_led_bulb_E27",
+      "name": {
+        "en": "Smart Dimmable LED Bulb",
+        "nl": "Slimme Dimbare LED Lamp"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "dim"
+      ],
+      "zigbee": {
+        "manufacturerName": "Trust International B.V.\u0000",
+        "productId": "ZLL-DimmableLigh",
+        "deviceId": 256,
+        "profileId": 49246,
+        "learnmode": {
+          "image": "/drivers/smart_dimmable_led_bulb_E27/assets/icon.svg",
+          "instruction": {
+            "en": "Toggle the bulb to start pairing.\n\nIf pairing does not automatically start within 20 seconds, try resetting the bulb by toggling it 5 times quickly. It will flash twice to indicate it has been reset.",
+            "nl": "Zet de lamp uit en weer aan.\n\nWordt de lamp niet automatisch toegevoegd binnen 20 seconden, probeer het dan te resetten door 5 keer de lamp aan en uit te zetten. De lamp zal twee keer knipperen om aan te geven dat hij is gereset."
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/smart_dimmable_led_bulb_E27/assets/images/large.png",
+        "small": "/drivers/smart_dimmable_led_bulb_E27/assets/images/small.png"
+      },
+      "settings": [
+        {
+          "id": "transtime",
+          "type": "number",
+          "label": {
+            "nl": "Transitie tijd in seconden",
+            "en": "Transition time in seconds"
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "smart_dimmable_led_bulb_E14",
+      "name": {
+        "en": "Smart Dimmable LED Bulb",
+        "nl": "Slimme Dimbare LED Lamp"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "dim"
+      ],
+      "zigbee": {
+        "manufacturerName": "Trust International B.V.\u0000",
+        "productId": "ZLL-DimmableLigh",
+        "deviceId": 256,
+        "profileId": 49246,
+        "learnmode": {
+          "image": "/drivers/smart_dimmable_led_bulb_E14/assets/icon.svg",
+          "instruction": {
+            "en": "Toggle the bulb to start pairing.\n\nIf pairing does not automatically start within 20 seconds, try resetting the bulb by toggling it 5 times quickly. It will flash twice to indicate it has been reset.",
+            "nl": "Zet de lamp uit en weer aan.\n\nWordt de lamp niet automatisch toegevoegd binnen 20 seconden, probeer het dan te resetten door 5 keer de lamp aan en uit te zetten. De lamp zal twee keer knipperen om aan te geven dat hij is gereset."
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/smart_dimmable_led_bulb_E14/assets/images/large.png",
+        "small": "/drivers/smart_dimmable_led_bulb_E14/assets/images/small.png"
+      },
+      "settings": [
+        {
+          "id": "transtime",
+          "type": "number",
+          "label": {
+            "nl": "Transitie tijd in seconden",
+            "en": "Transition time in seconds"
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "smart_dimmable_led_spot",
+      "name": {
+        "en": "Smart Dimmable LED Spot",
+        "nl": "Slimme Dimbare LED Spot"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "dim"
+      ],
+      "zigbee": {
+        "manufacturerName": "Trust International B.V.\u0000",
+        "productId": "ZLL-DimmableLigh",
+        "deviceId": 256,
+        "profileId": 49246,
+        "learnmode": {
+          "image": "/drivers/smart_dimmable_led_spot/assets/icon.svg",
+          "instruction": {
+            "en": "Toggle the spot to start pairing.\n\nIf pairing does not automatically start within 20 seconds, try resetting the spot by toggling it 5 times quickly. It will flash twice to indicate it has been reset.",
+            "nl": "Zet de spot uit en weer aan.\n\nWordt de spot niet automatisch toegevoegd binnen 20 seconden, probeer het dan te resetten door 5 keer de spot aan en uit te zetten. De spot zal twee keer knipperen om aan te geven dat hij is gereset."
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/smart_dimmable_led_spot/assets/images/large.png",
+        "small": "/drivers/smart_dimmable_led_spot/assets/images/small.png"
+      },
+      "settings": [
+        {
+          "id": "transtime",
+          "type": "number",
+          "label": {
+            "nl": "Transitie tijd in seconden",
+            "en": "Transition time in seconds"
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "smart_tunable_led_bulb_E27",
+      "name": {
+        "en": "Smart Tunable LED Bulb",
+        "nl": "Slimme LED Lamp - Aanpasbare lichtwarmte"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_temperature"
+      ],
+      "zigbee": {
+        "manufacturerName": "Trust International B.V.\u0000",
+        "productId": "ZLL-ColorTempera",
+        "deviceId": 544,
+        "profileId": 49246,
+        "learnmode": {
+          "image": "/drivers/smart_tunable_led_bulb_E27/assets/icon.svg",
+          "instruction": {
+            "en": "Toggle the bulb to start pairing.\n\nIf pairing does not automatically start within 20 seconds, try resetting the bulb by toggling it 5 times quickly. It will flash twice to indicate it has been reset.",
+            "nl": "Zet de lamp uit en weer aan.\n\nWordt de lamp niet automatisch toegevoegd binnen 20 seconden, probeer het dan te resetten door 5 keer de lamp aan en uit te zetten. De lamp zal twee keer knipperen om aan te geven dat hij is gereset."
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/smart_tunable_led_bulb_E27/assets/images/large.png",
+        "small": "/drivers/smart_tunable_led_bulb_E27/assets/images/small.png"
+      },
+      "settings": [
+        {
+          "id": "transtime",
+          "type": "number",
+          "label": {
+            "nl": "Transitie tijd in seconden",
+            "en": "Transition time in seconds"
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "smart_tunable_led_spot",
+      "name": {
+        "en": "Smart Tunable LED Spot",
+        "nl": "Slimme LED Spot - Aanpasbare lichtwarmte"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_temperature"
+      ],
+      "zigbee": {
+        "manufacturerName": "Trust International B.V.\u0000",
+        "productId": "ZLL-ColorTempera",
+        "deviceId": 544,
+        "profileId": 49246,
+        "learnmode": {
+          "image": "/drivers/smart_tunable_led_spot/assets/icon.svg",
+          "instruction": {
+            "en": "Toggle the spot to start pairing.\n\nIf pairing does not automatically start within 20 seconds, try resetting the spot by toggling it 5 times quickly. It will flash twice to indicate it has been reset.",
+            "nl": "Zet de spot uit en weer aan.\n\nWordt de spot niet automatisch toegevoegd binnen 20 seconden, probeer het dan te resetten door 5 keer de spot aan en uit te zetten. De spot zal twee keer knipperen om aan te geven dat hij is gereset."
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/smart_tunable_led_spot/assets/images/large.png",
+        "small": "/drivers/smart_tunable_led_spot/assets/images/small.png"
+      },
+      "settings": [
+        {
+          "id": "transtime",
+          "type": "number",
+          "label": {
+            "nl": "Transitie tijd in seconden",
+            "en": "Transition time in seconds"
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "smart_rgb_tunable_led_bulb_E27",
+      "name": {
+        "en": "Smart RGB Tunable LED Bulb",
+        "nl": "Slimme LED Lamp - Aanpasbare kleur"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "light_saturation",
+        "light_temperature",
+        "light_mode"
+      ],
+      "zigbee": {
+        "manufacturerName": "Trust International B.V.\u0000",
+        "productId": "ZLL-ExtendedColo",
+        "deviceId": 4096,
+        "profileId": 49246,
+        "learnmode": {
+          "image": "/drivers/smart_rgb_tunable_led_bulb_E27/assets/icon.svg",
+          "instruction": {
+            "en": "Toggle the bulb to start pairing.\n\nIf pairing does not automatically start within 20 seconds, try resetting the bulb by toggling it 5 times quickly. It will flash twice to indicate it has been reset.",
+            "nl": "Zet de lamp uit en weer aan.\n\nWordt de lamp niet automatisch toegevoegd binnen 20 seconden, probeer het dan te resetten door 5 keer de lamp aan en uit te zetten. De lamp zal twee keer knipperen om aan te geven dat hij is gereset."
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/smart_rgb_tunable_led_bulb_E27/assets/images/large.png",
+        "small": "/drivers/smart_rgb_tunable_led_bulb_E27/assets/images/small.png"
+      },
+      "settings": [
+        {
+          "id": "transtime",
+          "type": "number",
+          "label": {
+            "nl": "Transitie tijd in seconden",
+            "en": "Transition time in seconds"
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "smart_rgb_tunable_led_spot",
+      "name": {
+        "en": "Smart RGB Tunable LED Spot",
+        "nl": "Slimme LED Spot - Aanpasbare kleur"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "light_saturation",
+        "light_temperature",
+        "light_mode"
+      ],
+      "zigbee": {
+        "manufacturerName": "Trust International B.V.\u0000",
+        "productId": "ZLL-ExtendedColo",
+        "deviceId": 4096,
+        "profileId": 49246,
+        "learnmode": {
+          "image": "/drivers/smart_rgb_tunable_led_spot/assets/icon.svg",
+          "instruction": {
+            "en": "Toggle the spot to start pairing.\n\nIf pairing does not automatically start within 20 seconds, try resetting the spot by toggling it 5 times quickly. It will flash twice to indicate it has been reset.",
+            "nl": "Zet de spot uit en weer aan.\n\nWordt de spot niet automatisch toegevoegd binnen 20 seconden, probeer het dan te resetten door 5 keer de spot aan en uit te zetten. De spot zal twee keer knipperen om aan te geven dat hij is gereset."
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/smart_rgb_tunable_led_spot/assets/images/large.png",
+        "small": "/drivers/smart_rgb_tunable_led_spot/assets/images/small.png"
+      },
+      "settings": [
+        {
+          "id": "transtime",
+          "type": "number",
+          "label": {
+            "nl": "Transitie tijd in seconden",
+            "en": "Transition time in seconds"
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 20
+          }
+        }
+      ]
+    }
+  ]
+}
