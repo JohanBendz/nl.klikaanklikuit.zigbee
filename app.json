@@ -34,7 +34,7 @@
         "dim"
       ],
       "zigbee": {
-        "manufacturerName": "Trust International B.V.\u0000",
+        "manufacturerName": "Trust International B.V.",
         "productId": "ZLL-DimmableLigh",
         "deviceId": 256,
         "profileId": 49246,
@@ -78,7 +78,7 @@
         "dim"
       ],
       "zigbee": {
-        "manufacturerName": "Trust International B.V.\u0000",
+        "manufacturerName": "Trust International B.V.",
         "productId": "ZLL-DimmableLigh",
         "deviceId": 256,
         "profileId": 49246,
@@ -122,7 +122,7 @@
         "dim"
       ],
       "zigbee": {
-        "manufacturerName": "Trust International B.V.\u0000",
+        "manufacturerName": "Trust International B.V.",
         "productId": "ZLL-DimmableLigh",
         "deviceId": 256,
         "profileId": 49246,
@@ -167,7 +167,7 @@
         "light_temperature"
       ],
       "zigbee": {
-        "manufacturerName": "Trust International B.V.\u0000",
+        "manufacturerName": "Trust International B.V.",
         "productId": "ZLL-ColorTempera",
         "deviceId": 544,
         "profileId": 49246,
@@ -212,7 +212,7 @@
         "light_temperature"
       ],
       "zigbee": {
-        "manufacturerName": "Trust International B.V.\u0000",
+        "manufacturerName": "Trust International B.V.",
         "productId": "ZLL-ColorTempera",
         "deviceId": 544,
         "profileId": 49246,
@@ -260,7 +260,7 @@
         "light_mode"
       ],
       "zigbee": {
-        "manufacturerName": "Trust International B.V.\u0000",
+        "manufacturerName": "Trust International B.V.",
         "productId": "ZLL-ExtendedColo",
         "deviceId": 4096,
         "profileId": 49246,
@@ -308,7 +308,7 @@
         "light_mode"
       ],
       "zigbee": {
-        "manufacturerName": "Trust International B.V.\u0000",
+        "manufacturerName": "Trust International B.V.",
         "productId": "ZLL-ExtendedColo",
         "deviceId": 4096,
         "profileId": 49246,
