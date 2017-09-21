@@ -49,22 +49,7 @@
       "images": {
         "large": "/drivers/smart_dimmable_led_bulb_E27/assets/images/large.png",
         "small": "/drivers/smart_dimmable_led_bulb_E27/assets/images/small.png"
-      },
-      "settings": [
-        {
-          "id": "transtime",
-          "type": "number",
-          "label": {
-            "nl": "Transitie tijd in seconden",
-            "en": "Transition time in seconds"
-          },
-          "value": 1,
-          "attr": {
-            "min": 0,
-            "max": 20
-          }
-        }
-      ]
+      }
     },
     {
       "id": "smart_dimmable_led_bulb_E14",
@@ -93,22 +78,7 @@
       "images": {
         "large": "/drivers/smart_dimmable_led_bulb_E14/assets/images/large.png",
         "small": "/drivers/smart_dimmable_led_bulb_E14/assets/images/small.png"
-      },
-      "settings": [
-        {
-          "id": "transtime",
-          "type": "number",
-          "label": {
-            "nl": "Transitie tijd in seconden",
-            "en": "Transition time in seconds"
-          },
-          "value": 1,
-          "attr": {
-            "min": 0,
-            "max": 20
-          }
-        }
-      ]
+      }
     },
     {
       "id": "smart_dimmable_led_spot",
@@ -137,22 +107,7 @@
       "images": {
         "large": "/drivers/smart_dimmable_led_spot/assets/images/large.png",
         "small": "/drivers/smart_dimmable_led_spot/assets/images/small.png"
-      },
-      "settings": [
-        {
-          "id": "transtime",
-          "type": "number",
-          "label": {
-            "nl": "Transitie tijd in seconden",
-            "en": "Transition time in seconds"
-          },
-          "value": 1,
-          "attr": {
-            "min": 0,
-            "max": 20
-          }
-        }
-      ]
+      }
     },
     {
       "id": "smart_tunable_led_bulb_E27",
@@ -182,22 +137,7 @@
       "images": {
         "large": "/drivers/smart_tunable_led_bulb_E27/assets/images/large.png",
         "small": "/drivers/smart_tunable_led_bulb_E27/assets/images/small.png"
-      },
-      "settings": [
-        {
-          "id": "transtime",
-          "type": "number",
-          "label": {
-            "nl": "Transitie tijd in seconden",
-            "en": "Transition time in seconds"
-          },
-          "value": 1,
-          "attr": {
-            "min": 0,
-            "max": 20
-          }
-        }
-      ]
+      }
     },
     {
       "id": "smart_tunable_led_spot",
@@ -227,22 +167,7 @@
       "images": {
         "large": "/drivers/smart_tunable_led_spot/assets/images/large.png",
         "small": "/drivers/smart_tunable_led_spot/assets/images/small.png"
-      },
-      "settings": [
-        {
-          "id": "transtime",
-          "type": "number",
-          "label": {
-            "nl": "Transitie tijd in seconden",
-            "en": "Transition time in seconds"
-          },
-          "value": 1,
-          "attr": {
-            "min": 0,
-            "max": 20
-          }
-        }
-      ]
+      }
     },
     {
       "id": "smart_rgb_tunable_led_bulb_E27",
@@ -275,22 +200,7 @@
       "images": {
         "large": "/drivers/smart_rgb_tunable_led_bulb_E27/assets/images/large.png",
         "small": "/drivers/smart_rgb_tunable_led_bulb_E27/assets/images/small.png"
-      },
-      "settings": [
-        {
-          "id": "transtime",
-          "type": "number",
-          "label": {
-            "nl": "Transitie tijd in seconden",
-            "en": "Transition time in seconds"
-          },
-          "value": 1,
-          "attr": {
-            "min": 0,
-            "max": 20
-          }
-        }
-      ]
+      }
     },
     {
       "id": "smart_rgb_tunable_led_spot",
@@ -323,22 +233,7 @@
       "images": {
         "large": "/drivers/smart_rgb_tunable_led_spot/assets/images/large.png",
         "small": "/drivers/smart_rgb_tunable_led_spot/assets/images/small.png"
-      },
-      "settings": [
-        {
-          "id": "transtime",
-          "type": "number",
-          "label": {
-            "nl": "Transitie tijd in seconden",
-            "en": "Transition time in seconds"
-          },
-          "value": 1,
-          "attr": {
-            "min": 0,
-            "max": 20
-          }
-        }
-      ]
+      }
     }
   ],
   "flow": {}
